@@ -25,7 +25,7 @@ namespace Common
 
             var client = new HttpClient();
             // await says to method to wait until all the chunks of the stream is gotten
-            var stream = await client.GetStreamAsync("http://yigityesilpinar.com/namedays.json");
+            var stream = await client.GetStreamAsync("http://yigityesilpinar.com/api/namedays.json");
 
 
             // once the stream is ready
